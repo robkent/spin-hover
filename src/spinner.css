@@ -1,0 +1,15 @@
+.div {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 1000px;
+}
+
+.div:hover {
+	animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+	from{rotate: 2880deg}
+}
